@@ -1,0 +1,2 @@
+[payload]
+docker_image = "aritol/lsm:latest"

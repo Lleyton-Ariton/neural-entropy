@@ -158,14 +158,6 @@ impl LiquidStateMachineWrapper {
         })
     }
 
-    pub fn inputs(&self) -> PyResult<usize> {
-        Ok(self.inputs)
-    }
-
-    pub fn size(&self) -> PyResult<usize> {
-        Ok(self.size)
-    }
-
     pub fn weights(&self) -> PyResult<(Vec<Vec<f32>>, Vec<Vec<f32>>)> {
         let weights = self.lsm.weights();
 
