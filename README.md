@@ -14,11 +14,11 @@ The prior work ran experiments on a small network of 10 conductance-based (COBA)
 
 The results of the performed optimization reveal that LSM networks with a connection sparsity of `20%` and an E/I ratio of `80%` present with the highest entropy; remarkably, these are precisely the canonical parameters of real cortical networks [4, 5].
 
-| ![](./figures/stationary-distribution-shannon-entropy.pdf) |
+| ![](figures/stationary-distribution-shannon-entropy.pdf) |
 | :-: |
 | Figure 1. Optimizing the estimated Shannon entropy of the state-transition Markov chain's stationary distribution reproduces networks with physiological configurations. |
 
-| ![](./figures/transition-chain-topological-entropy.pdf) |
+| ![](figures/transition-chain-topological-entropy.pdf) |
 | :-: |
 | Figure 2. Optimizing the estimated topological entropy of the state-transition Markov chain yields no discernible preference for parameters. |
 
