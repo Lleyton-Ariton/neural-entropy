@@ -24,7 +24,7 @@ The results of the performed optimization reveal that LSM networks with a connec
 
 In contrast, the topological entropy of the state-transition Markov chain yielded high values for many of the configurations, showing no convergence to any set of parameters in particular. However, given the nature of the estimator used, it is likely that the topological entropy estimates are overestimated.
 
-[!NOTE] The work and codebase herein actually predate the creation time of this repository by over a year. On account of this, nothing will be expressly maintained; the findings and implementations contained herein are intended to serve as reference and contribution to the general body of science. Consequently, if seeking to replicate the experiment, ensure that everything be brought up to date.
+> [!NOTE] The work and codebase herein actually predate the creation time of this repository by over a year. On account of this, nothing will be expressly maintained; the findings and implementations contained herein are intended to serve as reference and contribution to the general body of science. Consequently, if seeking to replicate the experiment, ensure that everything be brought up to date.
 
 ## Methodology
 
@@ -36,7 +36,7 @@ The repository itself contains three branches:
 - The `main` branch houses the completed experiment, which was run with two Tau T2D instances from Google Cloud.
 - The `golem/task-api` is an experimental branch that attempted to use the [Golem Network](https://golem.network/) for decentralized computation of the parameter sweep; although tasks are provisioned and execute successfully, this approach was eventually abandoned due to difficulties with securing a sizable number of providers. The `ray-on-golem` project was also originally used, but equally abandoned for the same reasons.
 
-[!NOTE] If there is an error in the Golem code preventing proper large-scale usage, or the implementation is unoptimized, please [open an issue](https://github.com/Lleyton-Ariton/neural-entropy/issues) to flag the issue. Improvements, clarifications, and observations are highly encouraged. 
+> [!NOTE] If there is an error in the Golem code preventing proper large-scale usage, or the implementation is unoptimized, please [open an issue](https://github.com/Lleyton-Ariton/neural-entropy/issues) to flag the issue. Improvements, clarifications, and observations are highly encouraged. 
 
 ## Citation
 
