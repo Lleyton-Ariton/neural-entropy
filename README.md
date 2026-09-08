@@ -46,7 +46,7 @@ If you would like to use the results obtained from this experiment within your o
 ```bibtex
 @misc{ariton2026neuralentropy,
   author       = {Ariton, Lleyton},
-  title        = {neural-entropy: An experimental validation exploring the link between neural network entropy and real-world empirical biological observations},
+  title        = {neural-markov-chain-entropy: An experimental validation exploring the link between neural network entropy and real-world empirical biological observations},
   year         = {2026},
   publisher    = {GitHub},
   howpublished = {\url{[https://github.com/Lleyton-Ariton/neural-entropy](https://github.com/Lleyton-Ariton/neural-entropy)}},
